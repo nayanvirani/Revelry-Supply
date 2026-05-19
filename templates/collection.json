@@ -142,9 +142,10 @@
         "row_zYqygW": {
           "type": "row",
           "settings": {
+            "image": "{{ collection.metafields.custom.why_choose_image.value }}",
             "caption": "",
-            "heading": "Why Choose a Smell Proof Backpack?",
-            "text": "<p>Not all backpacks are created equal. A standard backpack may carry your belongings, but a smell proof backpack is engineered to contain, protect, and organize.</p><p><strong>✔ Advanced Odor Control:</strong> Designed with multi layer construction and carbon filtration to help contain and neutralize odors effectively.</p><p><strong>✔ Discreet Everyday Use:</strong> Minimalist design ensures your bag blends seamlessly into any environment, whether at work, travel, or public spaces.</p><p><strong>✔ Reliable Protection:</strong> Water resistant materials help protect your belongings from spills, moisture, and daily wear.</p><p><strong>✔ Built for Durability:</strong> High quality fabrics, reinforced stitching, and strong zippers ensure long term performance.</p>",
+            "heading": "{{ collection.metafields.custom.why_choose_title.value }}",
+            "text": "{{ collection.metafields.custom.why_choose_content | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
