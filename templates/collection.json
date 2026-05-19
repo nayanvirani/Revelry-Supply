@@ -1,1 +1,430 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":false,"show_collection_image":true,"color_scheme":"scheme-1"}},"nv_collection_swatchies_VhCNkN":{"type":"nv-collection-swatchies","name":"NV:Collection Swatches","settings":{"collections":"{{ collection.metafields.custom.collection_swatches.value }}","full_width":true,"section_color_scheme":"","padding_top":36,"padding_bottom":36}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"columns_desktop":3,"columns_mobile":"1","color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"standard","enable_filtering":true,"filter_type":"vertical","enable_sorting":true,"padding_top":36,"padding_bottom":36}},"nv_custom_content_TwWV7d":{"type":"nv-custom-content","blocks":{"heading_HDnVEE":{"type":"heading","settings":{"heading":"Smell Proof Backpacks for Discreet Everyday Carry","padding_top":0,"padding_bottom":0,"padding_top_m":0,"padding_bottom_m":0,"color":"#ffffff","bold_color":"#ffffff","font_size":36,"font_size_m":24,"line_height":140,"heading_fontweight":"600","content_position":"center"}},"paragraph_6FdFbn":{"type":"paragraph","settings":{"content":"<p>When functionality meets discretion, you get  backpacks that do more than just carry, they protect, conceal, and organize.<\/p><p>Our smell proof backpacks are designed for modern lifestyles where privacy, durability, and performance matter. Whether you're commuting, traveling, or managing your everyday carry, these backpacks provide a reliable solution for storing your items securely without drawing attention.<\/p><p>Built with advanced odor controlling technology and water resistant materials, Revelry’s backpacks offer the perfect balance of functionality and style.<\/p>","pmargin_bottom":15,"pmargin_bottom_m":15,"padding_top":25,"padding_bottom":0,"padding_top_m":15,"padding_bottom_m":0,"font_size":16,"font_size_m":14,"line_height":140,"color":"","bold_color":"","fontweight":"400","bfontweight":"700","content_position":"center"}}},"block_order":["heading_HDnVEE","paragraph_6FdFbn"],"disabled":true,"name":"NV: Custom content","settings":{"full_width":false,"section_color_scheme":"scheme-4","padding_top":36,"padding_bottom":36,"padding_top_m":36,"padding_bottom_m":36,"custom_code":""}},"rich_text_MaNNd7":{"type":"rich-text","blocks":{"heading_Ey9dKd":{"type":"heading","settings":{"heading":"Smell Proof Backpacks for Discreet Everyday Carry","heading_size":"h1"}},"text_wttjQJ":{"type":"text","settings":{"text":"<p>When functionality meets discretion, you get  backpacks that do more than just carry, they protect, conceal, and organize.<\/p><p>Our smell proof backpacks are designed for modern lifestyles where privacy, durability, and performance matter. Whether you're commuting, traveling, or managing your everyday carry, these backpacks provide a reliable solution for storing your items securely without drawing attention.<\/p><p>Built with advanced odor controlling technology and water resistant materials, Revelry’s backpacks offer the perfect balance of functionality and style.<\/p>"}}},"block_order":["heading_Ey9dKd","text_wttjQJ"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-2","full_width":true,"padding_top":36,"padding_bottom":36}},"multirow_3zWDkp":{"type":"multirow","blocks":{"row_zYqygW":{"type":"row","settings":{"caption":"","heading":"Why Choose a Smell Proof Backpack?","text":"<p>Not all backpacks are created equal. A standard backpack may carry your belongings, but a smell proof backpack is engineered to contain, protect, and organize.<\/p><p><strong>✔ Advanced Odor Control:<\/strong> Designed with multi layer construction and carbon filtration to help contain and neutralize odors effectively.<\/p><p><strong>✔ Discreet Everyday Use:<\/strong> Minimalist design ensures your bag blends seamlessly into any environment, whether at work, travel, or public spaces.<\/p><p><strong>✔ Reliable Protection:<\/strong> Water resistant materials help protect your belongings from spills, moisture, and daily wear.<\/p><p><strong>✔ Built for Durability:<\/strong> High quality fabrics, reinforced stitching, and strong zippers ensure long term performance.<\/p>","button_label":"","button_link":""}},"row_QxaPgW":{"type":"row","settings":{"caption":"","heading":"Designed for Real Life Use","text":"<p>Our smell proof backpacks are created to match your lifestyle, not limit it.<\/p><ul><li><strong>Everyday Carry (EDC): <\/strong>Perfect for daily routines, commuting, and staying organized throughout the day.<\/li><li><strong>Travel & On the Go: <\/strong>Carry your essentials securely while moving between destinations.<\/li><li><strong>Organized Storage: <\/strong>Keep your belongings neatly stored and easily accessible at home or on the move.<\/li><li><strong>Outdoor & Active Use: <\/strong>Durable enough to handle adventure, travel, and changing environments.<\/li><\/ul>","button_label":"","button_link":""}}},"block_order":["row_zYqygW","row_QxaPgW"],"name":"t:sections.multirow.presets.name","settings":{"image_height":"medium","desktop_image_width":"medium","image_layout":"alternate-right","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","row_color_scheme":"","padding_top":36,"padding_bottom":36}},"image_banner_gfRFgN":{"type":"image-banner","blocks":{"heading_B3xK4X":{"type":"heading","settings":{"heading":"What Makes Our Backpacks Different?","heading_size":"h1"}},"paragraph_tEWPVW":{"type":"paragraph","settings":{"content":"<p>When choosing a smell proof backpack, quality makes all the difference.<\/p><h3>Multi Layer Smell Proof Technology<\/h3><p>Each backpack is designed with advanced filtration layers that help trap and contain odor molecules, ensuring maximum discretion.<\/p><h3>Water Resistant Materials<\/h3><p>Unexpected spills or weather conditions won’t compromise your belongings.<\/p><h3>Durable Construction<\/h3><p>Built with premium materials to withstand daily wear and long term use.<\/p><h3>Discreet & Modern Design<\/h3><p>Clean, minimal aesthetics that don’t draw attention. Perfect for any environment.<\/p>"}}},"block_order":["heading_B3xK4X","paragraph_tEWPVW"],"custom_css":["h3 {margin-bottom: 5px;}","p {margin-top: 0;}"],"name":"t:sections.image-banner.presets.name","settings":{"full_width":false,"image":"shopify:\/\/shop_images\/Mini_Pipe_Kit_Nisene_051_under_20mb.jpg","enable_video":false,"image_overlay_opacity":70,"image_height":"medium","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"scheme-4","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":false}},"multirow_pqjer6":{"type":"multirow","blocks":{"row_ppAt9U":{"type":"row","settings":{"caption":"","heading":"Smart Storage & Organization","text":"<p>A great backpack doesn’t just carry, it organizes.<\/p><p>Our smell proof backpacks are designed with:<\/p><ul><li>Multiple compartments for better organization<\/li><li>Easy access pockets for convenience<\/li><li>Balanced weight distribution for comfort<\/li><\/ul><p>This ensures you can carry everything you need without clutter or hassle.<\/p>","button_label":"","button_link":""}},"row_hzPQWX":{"type":"row","settings":{"caption":"","heading":"How to Choose the Right Smell Proof Backpack?","text":"<p>Finding the right backpack depends on your specific needs.<\/p><ol><li><strong>Capacity: <\/strong>Choose a size that fits your daily essentials without overloading.<\/li><li><strong>Compartments: <\/strong>Look for layouts that help you stay organized.<\/li><li><strong>Comfort: <\/strong>Consider straps, weight distribution, and portability.<\/li><li><strong>Durability: <\/strong>Invest in materials that last longer and perform better.<\/li><\/ol>","button_label":"","button_link":""}}},"block_order":["row_ppAt9U","row_hzPQWX"],"name":"t:sections.multirow.presets.name","settings":{"image_height":"medium","desktop_image_width":"medium","image_layout":"alternate-right","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","row_color_scheme":"","padding_top":36,"padding_bottom":36}},"nv_custom_content_KTYrKH":{"type":"nv-custom-content","blocks":{"heading_x4PqYG":{"type":"heading","settings":{"heading":"Smell Proof Backpacks vs Regular Backpacks","padding_top":0,"padding_bottom":20,"padding_top_m":0,"padding_bottom_m":15,"color":"#1d1d1d","bold_color":"#0085d0","font_size":32,"font_size_m":24,"line_height":140,"heading_fontweight":"700","content_position":"center"}},"image_XEFkA9":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/smell-proof-backpacks-vs-regular-backpacks-v2.webp","image_container_width":520,"padding_top":0,"padding_bottom":0,"padding_top_m":0,"padding_bottom_m":0,"content_position":"center"}},"paragraph_JNFwG3":{"type":"paragraph","settings":{"content":"<p>👉 If you value privacy and performance, the upgrade is clear.<\/p>","pmargin_bottom":0,"pmargin_bottom_m":0,"padding_top":36,"padding_bottom":0,"padding_top_m":20,"padding_bottom_m":0,"font_size":16,"font_size_m":15,"line_height":140,"color":"","bold_color":"","fontweight":"400","bfontweight":"700","content_position":"center"}}},"block_order":["heading_x4PqYG","image_XEFkA9","paragraph_JNFwG3"],"name":"NV: Custom content","settings":{"full_width":false,"section_color_scheme":"","padding_top":36,"padding_bottom":36,"padding_top_m":36,"padding_bottom_m":36,"custom_code":""}},"multirow_G8RPjm":{"type":"multirow","blocks":{"row_F3Dr9p":{"type":"row","settings":{"caption":"","heading":"Who Are These Backpacks For?","text":"<p>Smell proof backpacks are ideal for:<\/p><ul><li>Daily commuters<\/li><li>Travelers<\/li><li>Minimalists<\/li><li>Anyone who values discreet storage and organization<\/li><\/ul>","button_label":"","button_link":""}},"row_tjrN6r":{"type":"row","settings":{"caption":"","heading":"Explore More Smell Proof Solutions","text":"<p>Looking for other storage options?<\/p><ul><li><a href=\"https:\/\/revelrysupply.com\/collections\/duffles\"><span style=\"text-decoration:underline\">Travel-ready duffle bags for larger capacity<\/span><\/a><\/li><li><a href=\"https:\/\/revelrysupply.com\/collections\/small-bags\"><span style=\"text-decoration:underline\">Compact small bags for quick carry<\/span><\/a><\/li><li><a href=\"https:\/\/revelrysupply.com\/collections\/kits\"><span style=\"text-decoration:underline\">Smell Proof kits for organized storage<\/span><\/a><\/li><li><a href=\"https:\/\/revelrysupply.com\/collections\/hardcases\"><span style=\"text-decoration:underline\">Hard cases for maximum protection<\/span><\/a><\/li><\/ul><p>👉 <a href=\"https:\/\/revelrysupply.com\/collections\/bags\"><span style=\"text-decoration:underline\">Explore all categories<\/span><\/a> to find the perfect solution for your needs.<\/p>","button_label":"","button_link":""}}},"block_order":["row_F3Dr9p","row_tjrN6r"],"name":"t:sections.multirow.presets.name","settings":{"image_height":"medium","desktop_image_width":"medium","image_layout":"alternate-right","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","row_color_scheme":"","padding_top":36,"padding_bottom":36}},"rich_text_rUTraq":{"type":"rich-text","blocks":{"heading_B8jbJM":{"type":"heading","settings":{"heading":"Upgrade Your Everyday Carry","heading_size":"h1"}},"text_DMwhEG":{"type":"text","settings":{"text":"<p>A backpack should give you confidence, not concerns.<\/p><p>With smell proof technology, durable construction, and discreet design, these backpacks are built to support your lifestyle without compromise.<\/p><p>Shop smell proof backpacks now and carry smarter, safer, and more discreetly.<\/p>"}}},"block_order":["heading_B8jbJM","text_DMwhEG"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-2","full_width":true,"padding_top":36,"padding_bottom":36}}},"order":["banner","nv_collection_swatchies_VhCNkN","product-grid","nv_custom_content_TwWV7d","rich_text_MaNNd7","multirow_3zWDkp","image_banner_gfRFgN","multirow_pqjer6","nv_custom_content_KTYrKH","multirow_G8RPjm","rich_text_rUTraq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "nv_collection_swatchies_VhCNkN": {
+      "type": "nv-collection-swatchies",
+      "name": "NV:Collection Swatches",
+      "settings": {
+        "collections": "{{ collection.metafields.custom.collection_swatches.value }}",
+        "full_width": true,
+        "section_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "nv_custom_content_TwWV7d": {
+      "type": "nv-custom-content",
+      "blocks": {
+        "heading_HDnVEE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smell Proof Backpacks for Discreet Everyday Carry",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_top_m": 0,
+            "padding_bottom_m": 0,
+            "color": "#ffffff",
+            "bold_color": "#ffffff",
+            "font_size": 36,
+            "font_size_m": 24,
+            "line_height": 140,
+            "heading_fontweight": "600",
+            "content_position": "center"
+          }
+        },
+        "paragraph_6FdFbn": {
+          "type": "paragraph",
+          "settings": {
+            "content": "<p>When functionality meets discretion, you get  backpacks that do more than just carry, they protect, conceal, and organize.</p><p>Our smell proof backpacks are designed for modern lifestyles where privacy, durability, and performance matter. Whether you're commuting, traveling, or managing your everyday carry, these backpacks provide a reliable solution for storing your items securely without drawing attention.</p><p>Built with advanced odor controlling technology and water resistant materials, Revelry’s backpacks offer the perfect balance of functionality and style.</p>",
+            "pmargin_bottom": 15,
+            "pmargin_bottom_m": 15,
+            "padding_top": 25,
+            "padding_bottom": 0,
+            "padding_top_m": 15,
+            "padding_bottom_m": 0,
+            "font_size": 16,
+            "font_size_m": 14,
+            "line_height": 140,
+            "color": "",
+            "bold_color": "",
+            "fontweight": "400",
+            "bfontweight": "700",
+            "content_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HDnVEE",
+        "paragraph_6FdFbn"
+      ],
+      "disabled": true,
+      "name": "NV: Custom content",
+      "settings": {
+        "full_width": false,
+        "section_color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_m": 36,
+        "padding_bottom_m": 36,
+        "custom_code": ""
+      }
+    },
+    "rich_text_MaNNd7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ey9dKd": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.discreet_everyday_carry_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_wttjQJ": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.discreet_everyday_carry_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ey9dKd",
+        "text_wttjQJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_3zWDkp": {
+      "type": "multirow",
+      "blocks": {
+        "row_zYqygW": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Why Choose a Smell Proof Backpack?",
+            "text": "<p>Not all backpacks are created equal. A standard backpack may carry your belongings, but a smell proof backpack is engineered to contain, protect, and organize.</p><p><strong>✔ Advanced Odor Control:</strong> Designed with multi layer construction and carbon filtration to help contain and neutralize odors effectively.</p><p><strong>✔ Discreet Everyday Use:</strong> Minimalist design ensures your bag blends seamlessly into any environment, whether at work, travel, or public spaces.</p><p><strong>✔ Reliable Protection:</strong> Water resistant materials help protect your belongings from spills, moisture, and daily wear.</p><p><strong>✔ Built for Durability:</strong> High quality fabrics, reinforced stitching, and strong zippers ensure long term performance.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QxaPgW": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Designed for Real Life Use",
+            "text": "<p>Our smell proof backpacks are created to match your lifestyle, not limit it.</p><ul><li><strong>Everyday Carry (EDC): </strong>Perfect for daily routines, commuting, and staying organized throughout the day.</li><li><strong>Travel & On the Go: </strong>Carry your essentials securely while moving between destinations.</li><li><strong>Organized Storage: </strong>Keep your belongings neatly stored and easily accessible at home or on the move.</li><li><strong>Outdoor & Active Use: </strong>Durable enough to handle adventure, travel, and changing environments.</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_zYqygW",
+        "row_QxaPgW"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-right",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_gfRFgN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_B3xK4X": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Makes Our Backpacks Different?",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_tEWPVW": {
+          "type": "paragraph",
+          "settings": {
+            "content": "<p>When choosing a smell proof backpack, quality makes all the difference.</p><h3>Multi Layer Smell Proof Technology</h3><p>Each backpack is designed with advanced filtration layers that help trap and contain odor molecules, ensuring maximum discretion.</p><h3>Water Resistant Materials</h3><p>Unexpected spills or weather conditions won’t compromise your belongings.</p><h3>Durable Construction</h3><p>Built with premium materials to withstand daily wear and long term use.</p><h3>Discreet & Modern Design</h3><p>Clean, minimal aesthetics that don’t draw attention. Perfect for any environment.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B3xK4X",
+        "paragraph_tEWPVW"
+      ],
+      "custom_css": [
+        "h3 {margin-bottom: 5px;}",
+        "p {margin-top: 0;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/Mini_Pipe_Kit_Nisene_051_under_20mb.jpg",
+        "enable_video": false,
+        "image_overlay_opacity": 70,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "multirow_pqjer6": {
+      "type": "multirow",
+      "blocks": {
+        "row_ppAt9U": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Smart Storage & Organization",
+            "text": "<p>A great backpack doesn’t just carry, it organizes.</p><p>Our smell proof backpacks are designed with:</p><ul><li>Multiple compartments for better organization</li><li>Easy access pockets for convenience</li><li>Balanced weight distribution for comfort</li></ul><p>This ensures you can carry everything you need without clutter or hassle.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_hzPQWX": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "How to Choose the Right Smell Proof Backpack?",
+            "text": "<p>Finding the right backpack depends on your specific needs.</p><ol><li><strong>Capacity: </strong>Choose a size that fits your daily essentials without overloading.</li><li><strong>Compartments: </strong>Look for layouts that help you stay organized.</li><li><strong>Comfort: </strong>Consider straps, weight distribution, and portability.</li><li><strong>Durability: </strong>Invest in materials that last longer and perform better.</li></ol>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ppAt9U",
+        "row_hzPQWX"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-right",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "nv_custom_content_KTYrKH": {
+      "type": "nv-custom-content",
+      "blocks": {
+        "heading_x4PqYG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smell Proof Backpacks vs Regular Backpacks",
+            "padding_top": 0,
+            "padding_bottom": 20,
+            "padding_top_m": 0,
+            "padding_bottom_m": 15,
+            "color": "#1d1d1d",
+            "bold_color": "#0085d0",
+            "font_size": 32,
+            "font_size_m": 24,
+            "line_height": 140,
+            "heading_fontweight": "700",
+            "content_position": "center"
+          }
+        },
+        "image_XEFkA9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smell-proof-backpacks-vs-regular-backpacks-v2.webp",
+            "image_container_width": 520,
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_top_m": 0,
+            "padding_bottom_m": 0,
+            "content_position": "center"
+          }
+        },
+        "paragraph_JNFwG3": {
+          "type": "paragraph",
+          "settings": {
+            "content": "<p>👉 If you value privacy and performance, the upgrade is clear.</p>",
+            "pmargin_bottom": 0,
+            "pmargin_bottom_m": 0,
+            "padding_top": 36,
+            "padding_bottom": 0,
+            "padding_top_m": 20,
+            "padding_bottom_m": 0,
+            "font_size": 16,
+            "font_size_m": 15,
+            "line_height": 140,
+            "color": "",
+            "bold_color": "",
+            "fontweight": "400",
+            "bfontweight": "700",
+            "content_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x4PqYG",
+        "image_XEFkA9",
+        "paragraph_JNFwG3"
+      ],
+      "name": "NV: Custom content",
+      "settings": {
+        "full_width": false,
+        "section_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_m": 36,
+        "padding_bottom_m": 36,
+        "custom_code": ""
+      }
+    },
+    "multirow_G8RPjm": {
+      "type": "multirow",
+      "blocks": {
+        "row_F3Dr9p": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Who Are These Backpacks For?",
+            "text": "<p>Smell proof backpacks are ideal for:</p><ul><li>Daily commuters</li><li>Travelers</li><li>Minimalists</li><li>Anyone who values discreet storage and organization</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_tjrN6r": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Explore More Smell Proof Solutions",
+            "text": "<p>Looking for other storage options?</p><ul><li><a href=\"https://revelrysupply.com/collections/duffles\"><span style=\"text-decoration:underline\">Travel-ready duffle bags for larger capacity</span></a></li><li><a href=\"https://revelrysupply.com/collections/small-bags\"><span style=\"text-decoration:underline\">Compact small bags for quick carry</span></a></li><li><a href=\"https://revelrysupply.com/collections/kits\"><span style=\"text-decoration:underline\">Smell Proof kits for organized storage</span></a></li><li><a href=\"https://revelrysupply.com/collections/hardcases\"><span style=\"text-decoration:underline\">Hard cases for maximum protection</span></a></li></ul><p>👉 <a href=\"https://revelrysupply.com/collections/bags\"><span style=\"text-decoration:underline\">Explore all categories</span></a> to find the perfect solution for your needs.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_F3Dr9p",
+        "row_tjrN6r"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-right",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_rUTraq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B8jbJM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upgrade Your Everyday Carry",
+            "heading_size": "h1"
+          }
+        },
+        "text_DMwhEG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A backpack should give you confidence, not concerns.</p><p>With smell proof technology, durable construction, and discreet design, these backpacks are built to support your lifestyle without compromise.</p><p>Shop smell proof backpacks now and carry smarter, safer, and more discreetly.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B8jbJM",
+        "text_DMwhEG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "nv_collection_swatchies_VhCNkN",
+    "product-grid",
+    "nv_custom_content_TwWV7d",
+    "rich_text_MaNNd7",
+    "multirow_3zWDkp",
+    "image_banner_gfRFgN",
+    "multirow_pqjer6",
+    "nv_custom_content_KTYrKH",
+    "multirow_G8RPjm",
+    "rich_text_rUTraq"
+  ]
+}
