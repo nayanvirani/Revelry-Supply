@@ -231,9 +231,10 @@
         "row_ppAt9U": {
           "type": "row",
           "settings": {
+            "image": "{{ collection.metafields.custom.smart_storage_organization_image.value }}",
             "caption": "",
-            "heading": "Smart Storage & Organization",
-            "text": "<p>A great backpack doesn’t just carry, it organizes.</p><p>Our smell proof backpacks are designed with:</p><ul><li>Multiple compartments for better organization</li><li>Easy access pockets for convenience</li><li>Balanced weight distribution for comfort</li></ul><p>This ensures you can carry everything you need without clutter or hassle.</p>",
+            "heading": "{{ collection.metafields.custom.smart_storage_organization_title.value }}",
+            "text": "{{ collection.metafields.custom.smart_storage_organization_content | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
@@ -241,9 +242,10 @@
         "row_hzPQWX": {
           "type": "row",
           "settings": {
+            "image": "{{ collection.metafields.custom.how_to_choose_image.value }}",
             "caption": "",
-            "heading": "How to Choose the Right Smell Proof Backpack?",
-            "text": "<p>Finding the right backpack depends on your specific needs.</p><ol><li><strong>Capacity: </strong>Choose a size that fits your daily essentials without overloading.</li><li><strong>Compartments: </strong>Look for layouts that help you stay organized.</li><li><strong>Comfort: </strong>Consider straps, weight distribution, and portability.</li><li><strong>Durability: </strong>Invest in materials that last longer and perform better.</li></ol>",
+            "heading": "{{ collection.metafields.custom.how_to_choose_title.value }}",
+            "text": "{{ collection.metafields.custom.how_to_choose_content | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
