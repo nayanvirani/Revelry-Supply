@@ -101,6 +101,9 @@
 {% if section.settings.image != blank %}
   {% assign is_display = true %}
 {% endif %}
+ {%- if section.settings.enable_video and section.settings.video != blank -%}
+  {% assign is_display = true %}
+ {% endif %}
 {%  if is_display == true %}
 {% if section.settings.full_width == false %}
   <div class="{{ section.id }}--custom-no-full-width">
