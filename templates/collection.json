@@ -189,14 +189,14 @@
         "heading_B3xK4X": {
           "type": "heading",
           "settings": {
-            "heading": "What Makes Our Backpacks Different?",
+            "heading": "{{ collection.metafields.custom.designed_for_real_life_use_title.value }}",
             "heading_size": "h1"
           }
         },
         "paragraph_tEWPVW": {
           "type": "paragraph",
           "settings": {
-            "content": "<p>When choosing a smell proof backpack, quality makes all the difference.</p><h3>Multi Layer Smell Proof Technology</h3><p>Each backpack is designed with advanced filtration layers that help trap and contain odor molecules, ensuring maximum discretion.</p><h3>Water Resistant Materials</h3><p>Unexpected spills or weather conditions won’t compromise your belongings.</p><h3>Durable Construction</h3><p>Built with premium materials to withstand daily wear and long term use.</p><h3>Discreet & Modern Design</h3><p>Clean, minimal aesthetics that don’t draw attention. Perfect for any environment.</p>"
+            "content": "{{ collection.metafields.custom.what_makes_our_backpacks_content | metafield_tag }}"
           }
         }
       },
@@ -211,7 +211,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "full_width": false,
-        "image": "shopify://shop_images/Mini_Pipe_Kit_Nisene_051_under_20mb.jpg",
+        "image": "{{ collection.metafields.custom.what_makes_our_backpacks_bg_image.value }}",
         "enable_video": false,
         "image_overlay_opacity": 70,
         "image_height": "medium",
