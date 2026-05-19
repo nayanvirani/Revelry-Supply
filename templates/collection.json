@@ -189,7 +189,7 @@
         "heading_B3xK4X": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.metafields.custom.designed_for_real_life_use_title.value }}",
+            "heading": "{{ collection.metafields.custom.what_makes_our_backpacks_title.value }}",
             "heading_size": "h1"
           }
         },
