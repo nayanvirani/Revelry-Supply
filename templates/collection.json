@@ -278,7 +278,7 @@
         "heading_x4PqYG": {
           "type": "heading",
           "settings": {
-            "heading": "Smell Proof Backpacks vs Regular Backpacks",
+            "heading": "{{ collection.metafields.custom.smell_proof_vs_regular_title.value }}",
             "padding_top": 0,
             "padding_bottom": 20,
             "padding_top_m": 0,
@@ -295,7 +295,7 @@
         "image_XEFkA9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/smell-proof-backpacks-vs-regular-backpacks-v2.webp",
+            "image": "{{ collection.metafields.custom.smell_proof_vs_regular_image.value }}",
             "image_container_width": 520,
             "padding_top": 0,
             "padding_bottom": 0,
@@ -307,7 +307,7 @@
         "paragraph_JNFwG3": {
           "type": "paragraph",
           "settings": {
-            "content": "<p>👉 If you value privacy and performance, the upgrade is clear.</p>",
+            "content": "{{ collection.metafields.custom.smell_proof_vs_regular_content | metafield_tag }}",
             "pmargin_bottom": 0,
             "pmargin_bottom_m": 0,
             "padding_top": 36,
