@@ -90,6 +90,18 @@
     assign fetch_priority = 'high'
   endif
 -%}
+{% assign is_display = false %}
+{% for block in section.blocks %}
+  {% if block.settings.heading != blank %}
+    {% assign is_display = true %}
+  {% elsif block.settings.text != blank %}
+    {% assign is_display = true %}
+  {% endif %}
+{% endfor %}
+{% if section.settings.image != blank %}
+  {% assign is_display = true %}
+{% endif %}
+{%  if is_display == true %}
 {% if section.settings.full_width == false %}
   <div class="{{ section.id }}--custom-no-full-width">
 {% endif %}
@@ -328,6 +340,7 @@
 {% if section.settings.full_width == false %}
 </div>
 {% endif %}
+
 {% assign video_source = section.settings.video.sources | where:'format','mp4' %}
 {% assign m_video_source = section.settings.mvideo.sources | where:'format','mp4' %}
 <script defer>
@@ -484,6 +497,7 @@
     }
   })();
 </script>
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.image-banner.name",
