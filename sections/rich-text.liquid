@@ -13,7 +13,15 @@
     }
   }
 {%- endstyle -%}
-
+{% assign is_display = false %}
+{% for block in section.blocks %}
+  {% if block.settings.heading != blank %}
+    {% assign is_display = true %}
+  {% elsif block.settings.text != blank %}
+    {% assign is_display = true %}
+  {% endif %}
+{% endfor %}
+{% if is_display %}
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
@@ -93,7 +101,7 @@
     </div>
   </div>
 </div>
-
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.rich-text.name",
