@@ -307,7 +307,7 @@
         "paragraph_JNFwG3": {
           "type": "paragraph",
           "settings": {
-            "content": "{{ collection.metafields.custom.smell_proof_vs_regular_content | metafield_tag }}",
+            "content": "<p>{{ collection.metafields.custom.smell_proof_vs_regular_content | metafield_tag }}</p>",
             "pmargin_bottom": 0,
             "pmargin_bottom_m": 0,
             "padding_top": 36,
@@ -347,9 +347,10 @@
         "row_F3Dr9p": {
           "type": "row",
           "settings": {
+            "image": "{{ collection.metafields.custom.who_are_image.value }}",
             "caption": "",
-            "heading": "Who Are These Backpacks For?",
-            "text": "<p>Smell proof backpacks are ideal for:</p><ul><li>Daily commuters</li><li>Travelers</li><li>Minimalists</li><li>Anyone who values discreet storage and organization</li></ul>",
+            "heading": "{{ collection.metafields.custom.who_are_title.value }}",
+            "text": "{{ collection.metafields.custom.who_are_content | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
