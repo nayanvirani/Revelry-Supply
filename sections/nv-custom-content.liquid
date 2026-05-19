@@ -1,7 +1,21 @@
 {%- liquid
   assign sid = section.id
 -%}
-
+{% assign is_display = false %}
+{% for block in section.blocks %}
+  {% if block.settings.image != blank %}
+    {% assign is_display = true %}
+  {% elsif block.settings.heading != blank %}
+    {% assign is_display = true %}
+  {% elsif block.settings.content != blank %}
+    {% assign is_display = true %}
+  {% elsif block.settings.text != blank %}
+    {% assign is_display = true %}
+  {% elsif block.settings.button != blank %}
+    {% assign is_display = true %}
+  {% endif %}
+{% endfor %}
+{% if is_display == true %}
 {%- style -%}
 /* ── Section base ── */
 .s{{ sid }} {
@@ -307,7 +321,7 @@
 {% if section.settings.custom_code != blank %}
   {{ section.settings.custom_code }}
 {% endif %}
-
+{% endif %}
 {% schema %}
 {
   "name": "NV: Custom content",
