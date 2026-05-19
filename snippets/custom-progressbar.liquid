@@ -1,0 +1,19 @@
+{%- if settings.free_shipping_threshold_text != blank -%}
+  <div class="custom-ss-bar-t">
+    <shipping-progress-bar
+      class="shipping-progress-bar"
+      threshold="{{ settings.free_shipping_threshold_text | times: 100 | round | default: 7500 }}"
+      current="{{ cart.total_price }}"
+      currency="{{ cart.currency.symbol }}"
+      threshold-message="{{ settings.threshold_message | default: 'Add __AMOUNT__ more to get FREE shipping!' | escape }}"
+      success-message="{{ settings.success_message | default: 'Congratulations! You qualify for FREE shipping!' | escape }}"
+      progress-color="{{ settings.progress_bar_color | default: '#4CAF50' }}"
+      background-color="{{ settings.progress_bar_bg_color | default: '#f0f0f0' }}"
+      enable-tier2="{{ settings.enable_tier2 | default: false }}"
+      tier2-threshold="{{ settings.tier2_threshold | times: 100 | round | default: 15000 }}"
+      tier2-message="{{ settings.tier2_message | default: 'Add __AMOUNT__ more to get a FREE gift!' | escape }}"
+      tier2-success-message="{{ settings.tier2_success_message | default: 'Congratulations! You get a FREE gift!' | escape }}"
+      >
+    </shipping-progress-bar>
+  </div>
+{%- endif -%}

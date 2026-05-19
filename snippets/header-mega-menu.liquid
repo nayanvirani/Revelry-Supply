@@ -1,0 +1,124 @@
+{% comment %}
+  Renders a megamenu for the header.
+
+  Usage:
+  {% render 'header-mega-menu' %}
+{% endcomment %}
+{% assign mega_menu_blocks = section.blocks | where:'type','megamenu' %}
+{% assign menu_image_blocks = section.blocks | where:'type','menuimage' %}
+<nav class="header__inline-menu">
+  <ul class="list-menu list-menu--inline" role="list">
+    {%- for link in section.settings.menu.links -%}
+      <li>
+        {%- if link.links != blank -%}
+          <header-menu>
+            <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+              <summary
+                id="HeaderMenu-{{ link.handle }}"
+                class="header__menu-item list-menu__item link focus-inset"
+              >
+                <span
+                  {%- if link.child_active %}
+                    class="header__active-menu-item"
+                  {% endif %}
+                >
+                  {{- link.title | escape -}}
+                </span>
+                {{- 'icon-caret.svg' | inline_asset_content -}}
+              </summary>
+              <div
+                id="MegaMenu-Content-{{ forloop.index }}"
+                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                {%  assign is_custom_mega_menu = false %}
+               {% assign handleize_menu_title = link.title | handleize %}
+               {% assign menu_block = '' %}
+               {% if mega_menu_blocks.size > 0 %}
+                  {% for block in mega_menu_blocks %}
+                    {% if block.settings.menu_item != blank and block.settings.menu_type != 'default' %}
+                      {% assign handleize_menu_name = block.settings.menu_item | handleize %}
+                      {% if handleize_menu_name == handleize_menu_title %}
+                        {% assign is_custom_mega_menu = true %}
+                        {% assign menu_block = block %}
+                        {% break %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+               {% endif %}
+               {% if is_custom_mega_menu == true and menu_block != blank %}
+                  {% if menu_block.settings.menu_type == 'collection-product' %}
+                    {% render 'mega-menu-collection-product',link:link,menu_block:menu_block,menu_image_blocks:menu_image_blocks %}
+                  {% elsif menu_block.settings.menu_type == 'row' %}
+                    {% render 'mega-menu-row-layout',link:link,menu_block:menu_block,menu_image_blocks:menu_image_blocks %}
+                  {% elsif menu_block.settings.menu_type == 'recommandation' %}
+                    {% render 'mega-menu-recommandation-layout',link:link,menu_block:menu_block,menu_image_blocks:menu_image_blocks %}
+                  {% elsif menu_block.settings.menu_type == 'grid' %}
+                    {% render 'mega-menu-grid-layout',link:link,menu_block:menu_block,menu_image_blocks:menu_image_blocks %}
+                  {% elsif menu_block.settings.menu_type == 'box-grid' %}
+                    {% render 'mega-menu-box-grid-layout',link:link,menu_block:menu_block,menu_image_blocks:menu_image_blocks %}
+                  {% endif %}
+               {% else %}
+                <ul
+                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  role="list"
+                >
+                  {%- for childlink in link.links -%}
+                    <li>
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                      {%- if childlink.links != blank -%}
+                        <ul class="list-unstyled" role="list">
+                          {%- for grandchildlink in childlink.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {% endif %}
+              </div>
+            </details>
+          </header-menu>
+        {%- else -%}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

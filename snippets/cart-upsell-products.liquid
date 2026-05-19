@@ -1,0 +1,27 @@
+<div class="custom-upsell-cart-wrapper">
+    <cart-recommendations
+    class="custom-upsell-recommendations"
+    data-url="{{ routes.product_recommendations_url }}?limit=6"
+    data-section-id="cart-drawer"
+    data-product-id="{{ cart.items.first.product_id }}"
+  >
+    {% if recommendations.performed and recommendations.products_count > 0 %}
+      <h2 class="upsell-products__heading inline-richtext">
+        {{ settings.cart_upsell_title }}
+      </h2>
+      <div class="cart-custom-recommendations">
+
+          <div class="cart-custom-recommendations-items">
+            {% for recommendation in recommendations.products %}
+              <div class="cart-custom-recommendations-item">
+                {% render 'card-product-upsell',
+                  card_product: recommendation
+                %}
+              </div>
+            {% endfor %}
+          </div>
+        
+      </div>
+    {% endif %}
+  </cart-recommendations>
+</div>

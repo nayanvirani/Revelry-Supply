@@ -1,0 +1,47 @@
+<div class="custom-mega-menu-box-grid-layout page-width" style="--active-color:{{ menu_block.settings.active_color }}">
+  <div class="custom-mega-menu-box-grid-layout-item">
+    <div class="custom-mega-menu-box-grid-layout-item-lists">
+      {%- for childlink in link.links -%}
+        {% assign image = childlink.object.featured_image %}
+        {% if childlink.object.metafields.custom.menu_image != blank %}
+            {% assign image = childlink.object.metafields.custom.menu_image %}
+        {% endif %}
+        {% if menu_image_blocks.size > 0 %}
+            {% for menu_image_block in menu_image_blocks %}
+                {% if menu_image_block.settings.title != blank and menu_image_block.settings.image != blank %}
+                    {% assign menu_image_block_title = menu_image_block.settings.title | handleize %}
+                    {% assign menu_item_title = childlink.title | handleize %}
+                    {% if menu_item_title == menu_image_block_title %}
+                         {% assign image = menu_image_block.settings.image %}
+                        {% break %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        <a
+          id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+          href="{{ childlink.url }}"
+          class="{{ menu_block.settings.font_family }}-regular{% if childlink.current %} mega-menu__link--active{% endif %}"
+          {% if grandchildlink.current %}
+            aria-current="page"
+          {% endif %}
+          style="--bg-color:{{ menu_block.settings.box_bg_color }};--text-color:{{ menu_block.settings.box_text_color }};"
+        >
+          {% if image != blank %}
+            <div class="image-wrapper">
+              <img
+                src="{{ image | image_url }}"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+                loading="lazy"
+                alt="{{ image.alt | default:childlink.title | escape }}"
+              >
+            </div>
+          {% endif %}
+
+          <span class="grandchildlink_menu_title">{{ childlink.title | escape }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

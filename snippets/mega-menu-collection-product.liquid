@@ -1,0 +1,174 @@
+<div
+  class="page-width custom-mega-menu-collection-product"
+  style="--active-color:{{ menu_block.settings.active_color }}"
+>
+  <div class="custom-cl-product-layout-left">
+    {%- for childlink in link.links -%}
+      {% if childlink.type == 'collection_link' %}
+        {% assign menu_collection = childlink.object %}
+        {% capture submenu_identifier %}{{ childlink.title | handleize }}-custom-{{ forloop.index }}--{{ menu_collection.id }}{% endcapture %}
+        <div class="custom-cl-product-layout-left-item{% unless menu_collection.metafields.custom.menu_image != blank %} no-image-a{% endunless %} {% if forloop.first %}custom-active{% endif %}">
+          <a href="{{ childlink.url }}" class="{{ menu_block.settings.font_family }}-regular">
+            {% assign image = menu_collection.featured_image %}
+            {% if menu_collection.metafields.custom.menu_image != blank %}
+              {% assign image = menu_collection.metafields.custom.menu_image %}
+            {% endif %}
+            {% if menu_image_blocks.size > 0 %}
+                {% for menu_image_block in menu_image_blocks %}
+                    {% if menu_image_block.settings.title != blank and menu_image_block.settings.image != blank %}
+                        {% assign menu_image_block_title = menu_image_block.settings.title | handleize %}
+                        {% assign menu_item_title = childlink.title | handleize %}
+                        {% if menu_item_title == menu_image_block_title %}
+                            {% assign image = menu_image_block.settings.image %}
+                            {% break %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            {% if image != blank %}
+              <div class="image-wrapper">
+                <img
+                  src="{{ image | image_url }}"
+                  width="{{ image.width }}"
+                  height="{{ image.height }}"
+                  loading="lazy"
+                  alt="{{ image.alt | default:childlink.title | escape }}"
+                >
+                </div>
+            {% endif %}
+            <span class="item-title">{{ childlink.title }}</span>
+          </a>
+          <button class="menu-opener" type="button" data-type="center" data-submenu="{{ submenu_identifier }}">
+            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.35841 4.40833L1.82507 0.875C1.74761 0.796893 1.65544 0.734898 1.55389 0.692591C1.45234 0.650284 1.34342 0.628502 1.23341 0.628502C1.1234 0.628502 1.01448 0.650284 0.912927 0.692591C0.811378 0.734898 0.71921 0.796893 0.641741 0.875C0.486532 1.03114 0.399414 1.24235 0.399414 1.4625C0.399414 1.68266 0.486532 1.89386 0.641741 2.05L3.59174 5L0.641741 7.95C0.486532 8.10614 0.399414 8.31735 0.399414 8.5375C0.399414 8.75766 0.486532 8.96887 0.641741 9.125C0.719608 9.20224 0.811955 9.26334 0.913486 9.30481C1.01502 9.34628 1.12374 9.3673 1.23341 9.36667C1.34308 9.3673 1.4518 9.34628 1.55333 9.30481C1.65486 9.26334 1.74721 9.20224 1.82507 9.125L5.35841 5.59167C5.43651 5.5142 5.49851 5.42203 5.54082 5.32048C5.58312 5.21893 5.60491 5.11001 5.60491 5C5.60491 4.88999 5.58312 4.78107 5.54082 4.67952C5.49851 4.57797 5.43651 4.4858 5.35841 4.40833Z" fill="currentColor"></path>
+            </svg>
+          </button>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="custom-cl-product-layout-center">
+    {%- for childlink in link.links -%}
+      {% if childlink.type == 'collection_link' %}
+        {% assign menu_collection = childlink.object %}
+        {% capture submenu_identifier %}{{ childlink.title | handleize }}-custom-{{ forloop.index }}--{{ menu_collection.id }}{% endcapture %}
+        <div
+          class="custom-cl-product-layout-center-main {% if forloop.first %}custom-active{% endif %}"
+          id="custom-submenu-{{ submenu_identifier }}"
+        >
+          {% for menu_product in menu_collection.products %}
+            {% capture product_identifier %}{{ submenu_identifier}}--{{ product.id }}--product-{{ forloop.index }}--{{ product.handle }}{% endcapture %}
+            <div class="custom-cl-product-layout-center-item{% unless menu_product.metafields.custom.menu_image != blank %} no-image-a{% endunless %} {% if forloop.first %}custom-active{% endif %}">
+              <a href="{{ menu_product.url }}" class="{{ menu_block.settings.font_family }}-regular">
+                {% assign image = menu_product.featured_image %}
+                {% if menu_product.metafields.custom.menu_image != blank %}
+                  {% assign image = menu_product.metafields.custom.menu_image %}
+                {% endif %}
+                {% if menu_image_blocks.size > 0 %}
+                    {% for menu_image_block in menu_image_blocks %}
+                        {% if menu_image_block.settings.title != blank and menu_image_block.settings.image != blank %}
+                            {% assign menu_image_block_title = menu_image_block.settings.title | handleize %}
+                            {% assign menu_item_title = menu_product.title | handleize %}
+                            {% if menu_item_title == menu_image_block_title %}
+                                {% assign image = menu_image_block.settings.image %}
+                                {% break %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {% if image != blank %}
+                  <div class="image-wrapper">
+                    <img
+                      src="{{ image | image_url }}"
+                      width="{{ image.width }}"
+                      height="{{ image.height }}"
+                      loading="lazy"
+                      alt="{{ image.alt | default:menu_product.title | escape }}"
+                    >
+                    </div>
+                {% endif %}
+                <span
+                  class="custom-mega-menu-hover-layout-wrapper-center-title"
+                >
+                  {{- menu_product.title -}}
+                </span>
+              </a>
+              <button class="menu-opener" type="button" data-type="right" data-submenu="{{ product_identifier }}">
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.35841 4.40833L1.82507 0.875C1.74761 0.796893 1.65544 0.734898 1.55389 0.692591C1.45234 0.650284 1.34342 0.628502 1.23341 0.628502C1.1234 0.628502 1.01448 0.650284 0.912927 0.692591C0.811378 0.734898 0.71921 0.796893 0.641741 0.875C0.486532 1.03114 0.399414 1.24235 0.399414 1.4625C0.399414 1.68266 0.486532 1.89386 0.641741 2.05L3.59174 5L0.641741 7.95C0.486532 8.10614 0.399414 8.31735 0.399414 8.5375C0.399414 8.75766 0.486532 8.96887 0.641741 9.125C0.719608 9.20224 0.811955 9.26334 0.913486 9.30481C1.01502 9.34628 1.12374 9.3673 1.23341 9.36667C1.34308 9.3673 1.4518 9.34628 1.55333 9.30481C1.65486 9.26334 1.74721 9.20224 1.82507 9.125L5.35841 5.59167C5.43651 5.5142 5.49851 5.42203 5.54082 5.32048C5.58312 5.21893 5.60491 5.11001 5.60491 5C5.60491 4.88999 5.58312 4.78107 5.54082 4.67952C5.49851 4.57797 5.43651 4.4858 5.35841 4.40833Z" fill="currentColor"></path>
+                </svg>
+              </button>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="custom-cl-product-layout-right">
+    {%- for childlink in link.links -%}
+      {% if childlink.type == 'collection_link' %}
+        {% assign main_index = forloop.index %}
+        {% assign menu_collection = childlink.object %}
+        {% capture submenu_identifier %}{{ childlink.title | handleize }}-custom-{{ forloop.index }}--{{ menu_collection.id }}{% endcapture %}
+
+        {% for menu_product in menu_collection.products %}
+          {% assign product_index = forloop.index %}
+          {% capture product_identifier %}{{ submenu_identifier}}--{{ product.id }}--product-{{ forloop.index }}--{{ product.handle }}{% endcapture %}
+
+          <div
+            class="custom-cl-product-layout-right-item{% if main_index == 1 and product_index == 1 %} custom-active{% endif %}"
+            id="custom-product-{{ product_identifier }}"
+          >
+            <a href="{{menu_product.url}}" class="image-wrapper">
+              <img
+                src="{{menu_product.featured_image | image_url }}"
+                width="{{menu_product.featured_image.width}}"
+                height="{{ menu_product.featured_image.height }}"
+                loading="lazy"
+                alt="{{ menu_product.featured_image.alt | default:menu_product.title | escape }}"
+              >
+            </a>
+            <div class="custom-cl-product-layout-right-item-content-wrapper">
+              <h3 class="h5 {{ menu_block.settings.font_family }}-regular">
+                <a href="{{ menu_product.url }}">{{ menu_product.title }}</a>
+              </h3>
+              {% if menu_product.metafields.custom.short_description != blank %}
+                <div class="custom-product-short-description">
+                  {{ menu_product.metafields.custom.short_description | metafield_tag}}
+                </div>
+              {% endif %}
+              <div class="loox-rating" data-id="{{ menu_product.id }}" data-rating="{{ menu_product.metafields.loox.avg_rating }}" data-raters="{{ menu_product.metafields.loox.num_reviews }}"></div>
+              <div class="custom-price-container-menu">
+                {% if menu_product.first_available_variant.compare_at_price > menu_product.first_available_variant.price
+                %}
+                  <span class="item-price line-through">
+                    {{- menu_product.first_available_variant.compare_at_price | money -}}
+                  </span>
+                {% endif %}
+                <span class="item-price">{{ menu_product.first_available_variant.price | money }}</span>
+                {% if menu_product.first_available_variant.compare_at_price > menu_product.first_available_variant.price
+                %}
+                  <span class="savings-percent-menu {{ menu_block.settings.font_family }}-regular">
+                    {{-
+                      menu_product.first_available_variant.compare_at_price
+                      | minus: menu_product.first_available_variant.price
+                      | times: 100.0
+                      | divided_by: menu_product.first_available_variant.compare_at_price
+                      | round
+                    -}}
+                    % OFF</span
+                  >
+                {% endif %}
+              </div>
+              <a
+                href="{{ menu_product.url }}"
+                class="button button--primary {{ menu_block.settings.font_family }}-regular"
+                >{{ menu_block.settings.atc_button_text | default:"View product" }}</a
+              >
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,45 @@
+{% if settings.cart_protection_product != blank and settings.cart_protection_product.available %}
+    {% assign cart_protection_product = settings.cart_protection_product %}
+    {% assign is_in_cart = 0 %}
+    {% for item in cart.items %}
+        {% if item.product_id == cart_protection_product.id %}
+            {% assign is_in_cart = 1 %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+  <cart-protection-product
+    data-pid="{{ cart_protection_product.id }}"
+    data-vid="{{ cart_protection_product.selected_or_first_available_variant.id }}"
+    data-incart="{{ is_in_cart }}"
+  >
+    <div class="cart-protection-product-wrappper">
+        {% if cart_protection_product.featured_image %}
+            <div class="cart-protection-product-image">
+                {{cart_protection_product.featured_image | image_url: width: '120x' | image_tag:loading:'lazy' }}
+            </div>
+        {% endif %}
+        <div class="cart-protection-product-content-wrapper">
+            <div class="cart-protection-product-title-detail">
+                {% if settings.cart_protection_title != blank %}
+                    <div class="cart-protection-product-title">
+                        {{ settings.cart_protection_title }}
+                    </div>
+                {% endif %}
+                {% if settings.cart_protection_content != blank %}
+                    <div class="cart-protection-product-content">
+                        {{ settings.cart_protection_content }}
+                    </div>
+                {% endif %}
+            </div>
+            <div class="cart-protection-product-action">
+                <label class="cart-protection-toggle-label" for="cart-protection-toggle-input">
+                    <input type="checkbox"{% if is_in_cart == 1 %} checked{% endif %} id="cart-protection-toggle-input">
+                    <span class="slider slider--no-scrollbar">
+                        <span></span>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </div>
+  </cart-protection-product>
+{% endif %}

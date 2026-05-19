@@ -1,0 +1,63 @@
+<div
+  class="custom-mega-menu-recommandations-layout page-width"
+  style="--active-color:{{ menu_block.settings.active_color }}"
+>
+  <div class="custom-mega-menu-recommandations-layout-items">
+    {%- for childlink in link.links -%}
+      {% assign menu_collection = childlink.object %}
+      <div class="custom-mega-menu-recommandations-layout-item">
+        {% assign image = menu_collection.featured_image %}
+        {% if menu_collection.metafields.custom.menu_image != blank %}
+            {% assign image = menu_collection.metafields.custom.menu_image %}
+        {% endif %}
+        {% if menu_image_blocks.size > 0 %}
+            {% for menu_image_block in menu_image_blocks %}
+                {% if menu_image_block.settings.title != blank and menu_image_block.settings.image != blank %}
+                    {% assign menu_image_block_title = menu_image_block.settings.title | handleize %}
+                    {% assign menu_item_title = childlink.title | handleize %}
+                    {% if menu_item_title == menu_image_block_title %}
+                         {% assign image = menu_image_block.settings.image %}
+                        {% break %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {% if image != blank %}
+          <a
+            class="image-wrapper"
+            href="{{childlink.url}}"
+          >
+            <img
+              src="{{ image | image_url }}"
+              width="{{ image.width }}"
+              height="{{ image.height }}"
+              loading="lazy"
+              alt="{{ image.alt | default:childlink.title | escape }}"
+            >
+          </a>
+        {% endif %}
+        <h3
+          class="custom-mega-menu-recommandations-layout-item-title {{ menu_block.settings.font_family }}-regular"
+        >
+          <a href="{{ childlink.url }}">
+            {{ childlink.title }}
+          </a>
+        </h3>
+        <div class="custom-mega-menu-recommandations-layout-wrapper-item-lists">
+          {%- for grandchildlink in childlink.links -%}
+            <a
+              id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+              href="{{ grandchildlink.url }}"
+              class="{{ menu_block.settings.font_family }}-regular {% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+              {% if grandchildlink.current %}
+                aria-current="page"
+              {% endif %}
+            >
+              <span class="grandchildlink_menu_title">{{ grandchildlink.title | escape }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
