@@ -210,7 +210,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image": "{{ collection.metafields.custom.what_makes_our_backpacks_bg_image.value }}",
         "enable_video": false,
         "image_overlay_opacity": 70,
