@@ -358,9 +358,10 @@
         "row_tjrN6r": {
           "type": "row",
           "settings": {
+            "image": "{{ collection.metafields.custom.explore_more_image.value }}",
             "caption": "",
-            "heading": "Explore More Smell Proof Solutions",
-            "text": "<p>Looking for other storage options?</p><ul><li><a href=\"https://revelrysupply.com/collections/duffles\"><span style=\"text-decoration:underline\">Travel-ready duffle bags for larger capacity</span></a></li><li><a href=\"https://revelrysupply.com/collections/small-bags\"><span style=\"text-decoration:underline\">Compact small bags for quick carry</span></a></li><li><a href=\"https://revelrysupply.com/collections/kits\"><span style=\"text-decoration:underline\">Smell Proof kits for organized storage</span></a></li><li><a href=\"https://revelrysupply.com/collections/hardcases\"><span style=\"text-decoration:underline\">Hard cases for maximum protection</span></a></li></ul><p>👉 <a href=\"https://revelrysupply.com/collections/bags\"><span style=\"text-decoration:underline\">Explore all categories</span></a> to find the perfect solution for your needs.</p>",
+            "heading": "{{ collection.metafields.custom.explore_more_title.value }}",
+            "text": "{{ collection.metafields.custom.explore_more_content | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
