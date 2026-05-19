@@ -41,7 +41,13 @@
     assign corners_class = ' collapse-corners'
   endunless
 -%}
-
+{% assign is_display = false %}
+{% for block in section.blocks %}
+  {% if block.settings.text != blank and block.settings.image != blank %}
+    {% assign is_display = true %}
+  {% endif %}
+{% endfor %}
+{% if is_display == true %}
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="multirow__inner page-width">
     {%- for block in section.blocks -%}
@@ -108,7 +114,7 @@
     {%- endfor -%}
   </div>
 </div>
-
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.multirow.name",
