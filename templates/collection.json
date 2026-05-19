@@ -394,14 +394,14 @@
         "heading_B8jbJM": {
           "type": "heading",
           "settings": {
-            "heading": "Upgrade Your Everyday Carry",
+            "heading": "{{ collection.metafields.custom.upgrade_your_everyday_carry_title.value }}",
             "heading_size": "h1"
           }
         },
         "text_DMwhEG": {
           "type": "text",
           "settings": {
-            "text": "<p>A backpack should give you confidence, not concerns.</p><p>With smell proof technology, durable construction, and discreet design, these backpacks are built to support your lifestyle without compromise.</p><p>Shop smell proof backpacks now and carry smarter, safer, and more discreetly.</p>"
+            "text": "{{ collection.metafields.custom.upgrade_your_everyday_carry_content | metafield_tag }}"
           }
         }
       },
