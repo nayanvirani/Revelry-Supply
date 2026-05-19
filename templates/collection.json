@@ -153,9 +153,10 @@
         "row_QxaPgW": {
           "type": "row",
           "settings": {
+            "image": "{{ collection.metafields.custom.designed_for_real_life_use_image.value }}",
             "caption": "",
-            "heading": "Designed for Real Life Use",
-            "text": "<p>Our smell proof backpacks are created to match your lifestyle, not limit it.</p><ul><li><strong>Everyday Carry (EDC): </strong>Perfect for daily routines, commuting, and staying organized throughout the day.</li><li><strong>Travel & On the Go: </strong>Carry your essentials securely while moving between destinations.</li><li><strong>Organized Storage: </strong>Keep your belongings neatly stored and easily accessible at home or on the move.</li><li><strong>Outdoor & Active Use: </strong>Durable enough to handle adventure, travel, and changing environments.</li></ul>",
+            "heading": "{{ collection.metafields.custom.designed_for_real_life_use_title.value }}",
+            "text": "{{ collection.metafields.custom.designed_for_real_life_use_content | metafield_tag }}",
             "button_label": "",
             "button_link": ""
           }
