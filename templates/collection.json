@@ -297,8 +297,8 @@
         "image_XEFkA9": {
           "type": "image",
           "settings": {
-            "image": "{{ collection.metafields.custom.smell_proof_vs_regular_image.value }}",
-            "image_container_width": 520,
+            "image": "shopify://shop_images/revelry_vs_competition_smell_proof.png",
+            "image_container_width": 800,
             "padding_top": 0,
             "padding_bottom": 0,
             "padding_top_m": 0,
