@@ -939,3 +939,12 @@ label.custom-image-swatch-label {
     height: 100%;
     object-fit: cover;
 }
+.custom-color-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(0,36px));
+    gap: 5px;
+}
+
+.custom-color-list-wrapper label.facets__label.facet-checkbox {
+    padding: 0;
+}
