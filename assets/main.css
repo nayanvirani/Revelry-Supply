@@ -928,23 +928,31 @@ label.custom-image-swatch-label {
 }
 
 .custom-color-img-wrapper {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
     border-radius: 100%;
+    border: 2px solid transparent;
+    padding: 2px;
+
 }
 
 .custom-color-img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+     border-radius: 100%;
 }
 .custom-color-list-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(0,36px));
+    grid-template-columns: repeat(auto-fit,minmax(0,40px));
     gap: 5px;
 }
 
 .custom-color-list-wrapper label.facets__label.facet-checkbox {
     padding: 0;
+}
+
+.custom-color-list-wrapper label.facets__label.facet-checkbox.active .facets__image-wrapper.custom-color-img-wrapper {
+    border-color: #000;
 }
