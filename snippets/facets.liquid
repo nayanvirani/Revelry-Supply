@@ -258,11 +258,7 @@
                                       {% assign handleize_color = value.label | handleize %}
                                       {% assign color_image = 'colcor-' | append:handleize_color | append:'.webp' %}
                                       <div class="facets__image-wrapper">
-                                          {{
-                                            color_image
-                                            | image_url: width: 300
-                                            | image_tag: class: 'facets__image', alt: value.label
-                                          }}
+                                          <img src="{{ color_image | file_url }}" width="300" height="300" alt="{{value.label | escape}}">
                                       </div>
                                     {% comment %}
                                     {{ text_value }}
