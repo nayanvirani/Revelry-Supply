@@ -926,3 +926,16 @@ label.custom-image-swatch-label {
         width: calc(100% - var(--grid-desktop-horizontal-spacing) / 2);
     }
 }
+
+.custom-color-img-wrapper {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.custom-color-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
