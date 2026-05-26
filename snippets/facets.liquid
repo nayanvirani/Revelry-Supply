@@ -192,7 +192,7 @@
                             endif
                           -%}
                           <ul
-                            class="{{ visual_layout_class }}{% if filter_type == 'vertical' %} facets__list--vertical{% else %} facets__list{% endif %} list-unstyled"
+                            class="{{ visual_layout_class }}{% if filter_type == 'vertical' %} facets__list--vertical{% else %} facets__list{% endif %} list-unstyled custom-color-list-wrapper"
                             role="list"
                           >
                             {%- for value in sorted_values -%}
@@ -257,7 +257,7 @@
                                     >
                                       {% assign handleize_color = value.label | handleize %}
                                       {% assign color_image = 'color-' | append:handleize_color | append:'.webp' %}
-                                      <div class="facets__image-wrapper">
+                                      <div class="facets__image-wrapper custom-color-img-wrapper">
                                           <img src="{{ color_image | file_url }}" width="300" height="300" alt="{{value.label | escape}}">
                                       </div>
                                     {% comment %}
