@@ -295,11 +295,11 @@
             "swipe_on_mobile": true
           }
         },
-        "tab_pXACeD": {
+        "tab_XjEDxj": {
           "type": "tab",
           "settings": {
-            "tab_label": "Backpacks",
-            "collection": "backpacks",
+            "tab_label": "Smell proof kits",
+            "collection": "kits",
             "products_to_show": 6,
             "description": "",
             "show_description": false,
@@ -319,11 +319,11 @@
             "swipe_on_mobile": true
           }
         },
-        "tab_w83dgF": {
+        "tab_pXACeD": {
           "type": "tab",
           "settings": {
-            "tab_label": "Duffles",
-            "collection": "duffles",
+            "tab_label": "Backpacks",
+            "collection": "backpacks",
             "products_to_show": 6,
             "description": "",
             "show_description": false,
@@ -367,11 +367,11 @@
             "swipe_on_mobile": true
           }
         },
-        "tab_XjEDxj": {
+        "tab_w83dgF": {
           "type": "tab",
           "settings": {
-            "tab_label": "Smell proof kits",
-            "collection": "kits",
+            "tab_label": "Duffles",
+            "collection": "duffles",
             "products_to_show": 6,
             "description": "",
             "show_description": false,
@@ -442,10 +442,10 @@
       },
       "block_order": [
         "tab_ABhFp6",
-        "tab_pXACeD",
-        "tab_w83dgF",
-        "tab_hU8bdr",
         "tab_XjEDxj",
+        "tab_pXACeD",
+        "tab_hU8bdr",
+        "tab_w83dgF",
         "tab_kGcxdi",
         "tab_74MNzY"
       ],
