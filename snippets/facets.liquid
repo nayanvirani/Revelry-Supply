@@ -254,6 +254,7 @@
                                       {% if is_disabled %}
                                         disabled
                                       {% endif %}
+                                      class="hidden"
                                     >
                                       {% assign handleize_color = value.label | handleize %}
                                       {% assign color_image = 'color-' | append:handleize_color | append:'.webp' %}
