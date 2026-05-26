@@ -256,7 +256,7 @@
                                       {% endif %}
                                     >
                                       {% assign handleize_color = value.label | handleize %}
-                                      {% assign color_image = 'colcor-' | append:handleize_color | append:'.webp' %}
+                                      {% assign color_image = 'color-' | append:handleize_color | append:'.webp' %}
                                       <div class="facets__image-wrapper">
                                           <img src="{{ color_image | file_url }}" width="300" height="300" alt="{{value.label | escape}}">
                                       </div>
