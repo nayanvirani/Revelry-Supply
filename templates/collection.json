@@ -19,6 +19,7 @@
     },
     "nv_collection_swatchies_VhCNkN": {
       "type": "nv-collection-swatchies",
+      "disabled": true,
       "name": "NV:Collection Swatches",
       "settings": {
         "collections": "{{ collection.metafields.custom.collection_swatches.value }}",
