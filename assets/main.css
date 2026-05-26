@@ -945,7 +945,7 @@ label.custom-image-swatch-label {
 }
 .custom-color-list-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(0,40px));
+    grid-template-columns: repeat(auto-fit,minmax(0,36px));
     gap: 5px;
 }
 
