@@ -242,7 +242,7 @@
                                     {{ text_value }}
                                   </div>
                                 {%- else -%}
-                                  <label for="{{ input_id }}" class="{{ label_class }}">
+                                  <label for="{{ input_id }}" class="{{ label_class }}" title="{{value.label | escape }}">
                                     <input
                                       type="checkbox"
                                       name="{{ value.param_name }}"
@@ -255,26 +255,18 @@
                                         disabled
                                       {% endif %}
                                     >
-
-                                    {%- if presentation == 'image' -%}
+                                      {% assign handleize_color = value.label | handleize %}
+                                      {% assign color_image = 'colcor-' | append:handleize_color | append:'.webp' %}
                                       <div class="facets__image-wrapper">
-                                        {%- if value.image -%}
                                           {{
-                                            value.image
+                                            color_image
                                             | image_url: width: 300
-                                            | image_tag: class: 'facets__image', alt: value.alt
+                                            | image_tag: class: 'facets__image', alt: value.label
                                           }}
-                                        {%- endif -%}
                                       </div>
-                                    {%- else -%}
-                                      {{- 'square.svg' | inline_asset_content -}}
-
-                                      <div class="svg-wrapper">
-                                        {{- 'icon-checkmark.svg' | inline_asset_content -}}
-                                      </div>
-                                    {%- endif -%}
-
+                                    {% comment %}
                                     {{ text_value }}
+                                     {% endcomment %}
                                   </label>
                                 {%- endif -%}
                               </li>
