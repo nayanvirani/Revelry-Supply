@@ -107,10 +107,86 @@
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
           }
+        },
+        "slide_mfLJqp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pipe_Kit_traveler.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_tAWyKA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Banner_2_e93f347f-fe1e-49da-ac35-7ad22d4174d3.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_JQh9NG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Banner_Cache.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_peXFzY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Spend_100_Banner_2.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
         }
       },
       "block_order": [
-        "slide_4MPGYb"
+        "slide_4MPGYb",
+        "slide_mfLJqp",
+        "slide_tAWyKA",
+        "slide_JQh9NG",
+        "slide_peXFzY"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
