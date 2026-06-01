@@ -69,6 +69,7 @@
       "block_order": [
         "timerblock_3WY6eW"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify://shop_images/revelry_420_shorter_banner.png",
@@ -84,6 +85,43 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
+      }
+    },
+    "slideshow_aCw7eD": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_4MPGYb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Banner_Mahalo.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4MPGYb"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "section_scrolling_promotion_kGdqT3": {
@@ -713,6 +751,7 @@
   "order": [
     "image_banner",
     "image_banner_KVMe99",
+    "slideshow_aCw7eD",
     "section_scrolling_promotion_kGdqT3",
     "featured_collection",
     "image_banner_GewhKx",
