@@ -73,12 +73,25 @@
             "box_text_color": "#000000",
             "atc_button_text": "View product"
           }
+        },
+        "megamenu_VGzDnj": {
+          "type": "megamenu",
+          "settings": {
+            "menu_type": "box-grid",
+            "menu_item": "Accessories",
+            "active_color": "#089b4b",
+            "font_family": "default",
+            "box_bg_color": "#f5f5f5",
+            "box_text_color": "#000000",
+            "atc_button_text": "View product"
+          }
         }
       },
       "block_order": [
         "megamenu_TpDwkX",
         "megamenu_UXWr9r",
-        "megamenu_9c4nrN"
+        "megamenu_9c4nrN",
+        "megamenu_VGzDnj"
       ],
       "settings": {
         "logo_position": "middle-left",
