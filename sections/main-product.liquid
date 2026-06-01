@@ -225,7 +225,32 @@
                     <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                       {{ block.settings.content }}
                       {{ block.settings.page.content }}
+                        {% if block.settings.image != blank %}
+                          <div class="image-wrapper">
+                              <img src="{{block.settings.image | image_url}}" loading="lazy" width="{{block.settings.image.width }}" height="{{block.settings.image.height }}" allt="{{block.settings.heading | escape }}">
+                          </div>
+                        {% endif %}
+                        {% if block.settings.video_url != blank %}
+                        {%- if block.settings.video_url.type == 'youtube' -%}
+                            <iframe
+                              src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}?enablejsapi=1"
+                              class="js-youtube"
+                              allow="autoplay; encrypted-media"
+                              allowfullscreen
+                              title="{{ block.settings.description | escape }}"
+                            ></iframe>
+                          {%- else -%}
+                            <iframe
+                              src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}"
+                              class="js-vimeo"
+                              allow="autoplay; encrypted-media"
+                              allowfullscreen
+                              title="{{ block.settings.description | escape }}"
+                            ></iframe>
+                          {%- endif -%}
+                        {% endif %}
                     </div>
+                   
                   </details>
                 </div>
                 {% endif %}
