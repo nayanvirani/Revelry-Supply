@@ -956,3 +956,17 @@ label.custom-image-swatch-label {
 .custom-color-list-wrapper label.facets__label.facet-checkbox.active .facets__image-wrapper.custom-color-img-wrapper {
     border-color: #000;
 }
+
+.product__accordion .accordion__content iframe{
+	width:100%;
+	min-height:350px;
+}
+
+.product__accordion .accordion__content .image-wrapper{
+    line-height:0px;
+}
+.product__accordion .accordion__content .image-wrapper img{
+    width:100%;
+    object-fit:cover;
+    height:auto;
+}
