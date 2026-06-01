@@ -61,7 +61,8 @@
             "heading": "Description",
             "icon": "none",
             "content": "{{ product.description }}",
-            "page": ""
+            "page": "",
+            "video_url": ""
           }
         },
         "collapsible_tab_MCtjHt": {
@@ -70,7 +71,8 @@
             "heading": "Details",
             "icon": "none",
             "content": "{{ product.metafields.custom.techincal_details | metafield_tag }}",
-            "page": ""
+            "page": "",
+            "video_url": ""
           }
         },
         "collapsible_tab_WFgJQm": {
@@ -79,7 +81,19 @@
             "heading": "Layer",
             "icon": "none",
             "content": "{{ product.metafields.custom.layer_details | metafield_tag }}",
-            "page": ""
+            "page": "",
+            "image": "{{ product.metafields.custom.layer_image.value }}",
+            "video_url": ""
+          }
+        },
+        "collapsible_tab_q793Cw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Tech",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "video_url": "https://www.youtube.com/watch?v=ZfRKTUrotEY"
           }
         },
         "share": {
@@ -101,6 +115,7 @@
         "collapsible_tab_x3Xxhy",
         "collapsible_tab_MCtjHt",
         "collapsible_tab_WFgJQm",
+        "collapsible_tab_q793Cw",
         "share"
       ],
       "settings": {
