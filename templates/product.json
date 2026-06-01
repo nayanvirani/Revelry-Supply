@@ -52,11 +52,11 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "collapsible_tab_x3Xxhy": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Description",
             "icon": "none",
