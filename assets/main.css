@@ -756,8 +756,8 @@ span.item-price.line-through {
 
 .custom-mega-menu-box-grid-layout-item-lists {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
     justify-content: center;
 }
 
@@ -768,11 +768,12 @@ span.item-price.line-through {
     text-decoration: none;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     color: var(--text-color);
     gap:5px;
+    line-height:120%;
 }
 .custom-mega-menu-box-grid-layout-item-lists a .image-wrapper {
     max-width: 53px;
