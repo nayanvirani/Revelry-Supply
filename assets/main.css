@@ -756,7 +756,7 @@ span.item-price.line-through {
 
 .custom-mega-menu-box-grid-layout-item-lists {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(235px,1fr));
     gap: 15px;
     justify-content: center;
 }
