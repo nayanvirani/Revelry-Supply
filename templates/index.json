@@ -251,6 +251,24 @@
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
           }
+        },
+        "slide_aQCKVN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/5I0A14472.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
         }
       },
       "block_order": [
@@ -262,7 +280,8 @@
         "slide_rp3Hwb",
         "slide_ENAFND",
         "slide_NF8iJa",
-        "slide_9JMCBD"
+        "slide_9JMCBD",
+        "slide_aQCKVN"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
