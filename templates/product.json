@@ -53,7 +53,7 @@
         "custom_liquid_8gnXkq": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"ca-warning-wrapper\">\n              <a href=\"https://revelrysupply.com/pages/prop-65-faq\" target=\"_blank\" style=\"display: block;\">⚠️ CA WARNING</a>\n            </div>"
+            "custom_liquid": "<div class=\"ca-warning-wrapper\">\n              <a href=\"https://revelrysupply.com/pages/prop-65-faq\" target=\"_blank\" style=\"display: block;\">⚠️ CA WARNING</a>\n            </div>\n{% style %}\n.ca-warning-wrapper a{\ntext-decoration:none;\ncolor:rgba(var(--color-foreground), 1);\n}\n{% endstyle %}"
           }
         },
         "description": {
