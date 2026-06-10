@@ -11,13 +11,67 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1781072977d1faebca": {
+      "type": "apps",
+      "blocks": {
+        "bundler_custom_bundle_tm9FzM": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "fhko"
+          }
+        },
+        "bundler_custom_bundle_YRxDnT": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "g8px"
+          }
+        },
+        "bundler_custom_bundle_jNNGQC": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "fi1k"
+          }
+        },
+        "bundler_custom_bundle_QHtdJh": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "fj8f"
+          }
+        },
+        "bundler_custom_bundle_qc8Qig": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "fi2d"
+          }
+        },
+        "bundler_custom_bundle_iVDBHz": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": "fhkw"
+          }
+        }
+      },
+      "block_order": [
+        "bundler_custom_bundle_tm9FzM",
+        "bundler_custom_bundle_YRxDnT",
+        "bundler_custom_bundle_jNNGQC",
+        "bundler_custom_bundle_QHtdJh",
+        "bundler_custom_bundle_qc8Qig",
+        "bundler_custom_bundle_iVDBHz"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1781072977d1faebca"
   ]
 }
