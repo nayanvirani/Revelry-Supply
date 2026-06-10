@@ -50,6 +50,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_8gnXkq": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ca-warning-wrapper\">\n              <a href=\"https://revelrysupply.com/pages/prop-65-faq\" target=\"_blank\" style=\"display: block;\">⚠️ CA WARNING</a>\n            </div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -111,6 +117,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_8gnXkq",
         "description",
         "collapsible_tab_x3Xxhy",
         "collapsible_tab_MCtjHt",
