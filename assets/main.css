@@ -971,7 +971,7 @@ label.custom-image-swatch-label {
     object-fit:cover;
     height:auto;
 }
-.button, .button-label, .shopify-challenge__button, .customer button{
+.card .button{
     font-weight:600;
     letter-spacing:0;
 }
