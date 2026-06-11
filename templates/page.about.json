@@ -84,10 +84,11 @@
         "row_kmredQ": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/cnotactmobile.jpg",
+            "caption": "",
+            "heading": "Why we do it",
+            "text": "<p>To put it simply, because we want to. Revelry was started in 2015 with the selfish ambition of creating products that we, ourselves actually want to use. Our first designs were to improve upon the limited landscape of smell proof luggage. When we entered the market we saw subquality products with bad aesthetics, and no branding that spoke to consumers like us. With our background in marketing and design, and a clear vision of what we wanted to create, we kew we could build something that would remedy the situation. From there Revelry was created, and we've been making off the clock supplies ever since.</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
