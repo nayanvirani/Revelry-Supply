@@ -73,10 +73,11 @@
         "row_mjXVFY": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/aboutmobile.jpg",
+            "caption": "",
+            "heading": "What we make",
+            "text": "<p>Our products are inspired by a desire to create gear that fits your off the clock lifestyle. Whether you are outdoor adventuring, on a road trip, or simply kicking back at home, our technical yet simple designs have you covered. With a range of smell proof luggage and travel kits, to hard cases and coolers, our robust collection of products are perfect for any adventure you embark on.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -98,7 +99,7 @@
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "image_layout": "alternate-right",
         "heading_size": "h1",
