@@ -29,6 +29,15 @@
     "multicolumn_kqgeaN": {
       "type": "multicolumn",
       "blocks": {
+        "column_jnEhfi": {
+          "type": "column",
+          "settings": {
+            "title": "Address:",
+            "text": "<p><strong>Revelry Supply</strong></p><p>201 Walker St Watsonville, CA 95076</p><p><strong>Wholesale</strong></p><p>Apply to start a Revelry wholesale account <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc9f_I8FB4Fafr8BTyz7UZP0C2b-3MKEwOI5dy3HC7dyQmKwg/viewform?usp=dialog\"><strong>here</strong></a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_C4kWQw": {
           "type": "column",
           "settings": {
@@ -49,6 +58,7 @@
         }
       },
       "block_order": [
+        "column_jnEhfi",
         "column_C4kWQw",
         "column_gxQfdR"
       ],
@@ -60,7 +70,7 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
         "color_scheme": "",
