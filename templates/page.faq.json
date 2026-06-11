@@ -55,10 +55,43 @@
         "mobile_content_alignment": "center",
         "show_text_below": false
       }
+    },
+    "collapsible_content_QYHHCH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_xVHJHC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes the luggage smell proof/odor absorbing?",
+            "icon": "none",
+            "row_content": "<p>Each bag has a nylon or cotton canvas exterior that has a heavy duty rubber backing. The rubber backing, that is invisible from the outside, works as our first line of defense by creating odor containment and resistance to water. Our carbon filter system has 3 separate layers. The two outer white layers are synthetic filters, and the middle layer is activated charcoal. Combined these layers create a filtration system that soaks up all unwanted odors.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_xVHJHC"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Luggage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_zyaKVr"
+    "image_banner_zyaKVr",
+    "collapsible_content_QYHHCH"
   ]
 }
