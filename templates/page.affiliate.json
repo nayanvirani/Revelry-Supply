@@ -82,6 +82,11 @@
         "column_fM34LD",
         "column_tHjqAt"
       ],
+      "custom_css": [
+        "h3.inline-richtext {text-align: center; font-size: 40px;}",
+        ".multicolumn-card__info p:first-child {text-align: center;}",
+        ".multicolumn-card__info h2 {text-align: center;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
