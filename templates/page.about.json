@@ -62,10 +62,11 @@
         "row_Td4HeC": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/weather.jpg",
+            "caption": "",
+            "heading": "Who we are",
+            "text": "<p>Our crew is a team of adventurers that like to explore and enjoy life. We prefer to enhance our experiences by enjoying herb and libations. We built Revelry on those same principles. We want people to find their passions, and use our products to enjoy those moments even more.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -99,7 +100,7 @@
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
