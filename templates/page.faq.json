@@ -76,11 +76,61 @@
             "row_content": "<p>Each bag has a nylon or cotton canvas exterior that has a heavy duty rubber backing. The rubber backing, that is invisible from the outside, works as our first line of defense by creating odor containment and resistance to water.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_dHteJM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the luggage waterproof?",
+            "icon": "none",
+            "row_content": "<p>No, because they are not submersible.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MDf4wg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I refresh the carbon filter system in my Revelry bag?",
+            "icon": "none",
+            "row_content": "<p>Refreshing the filters releases absorbed odor molecules from the filters, renewing them to near their original absorbing ability. To refresh your bag: Turn the bag inside-out. Place the bag in the dryer on low for a few minutes or until warm. OR place it outside in the sun for a few hours or until warm.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yezMFC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the luggage machine washable?",
+            "icon": "none",
+            "row_content": "<p>No. We recommend spot cleaning as needed or dry cleaning. When you put the bags in a machine washer you risk damaging the carbon filter system. Washing the bag will also warp the leather details.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EUGNRV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is a waterproof zipper?",
+            "icon": "none",
+            "row_content": "<p>A waterproof zipper is a zipper that has been coated in rubber to allow it to keep water out. With any type of waterproof zipper it is important to use a zipper lubricant about once a month to increase the longevity of it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XEqiAA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the luggage lockable?",
+            "icon": "none",
+            "row_content": "<p>Yes, all of our luggage with the exception of the Confidant and Mini Confidant is lockable. We suggest purchasing our brass luggage lock that come with two unique keys if you plan to lock your luggage.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_xVHJHC",
-        "collapsible_row_w3yeU3"
+        "collapsible_row_w3yeU3",
+        "collapsible_row_dHteJM",
+        "collapsible_row_MDf4wg",
+        "collapsible_row_yezMFC",
+        "collapsible_row_EUGNRV",
+        "collapsible_row_XEqiAA"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
