@@ -60,7 +60,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"locator-wrap\">\n  <div id='storerocket-widget' style='width:100%;' data-storerocket-env='p' data-storerocket-id='qBZJWD780o'><p style='text-align:center;font-size:13px;padding:10px;'>Store locator is loading from StoreRocket <a target='_blank' href='https://storerocket.io' style='font-size:13px;'>Store Locator Widget</a>..</p></div><script>(function(){var a=document.createElement('script');a.type='text/javascript';a.async=!0;a.src='https://cdn.storerocket.io/js/widget.js';var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);}());</script>\t\n</div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div class=\"locator-wrap\">\n  <div id='storerocket-widget' style='width:100%;' data-storerocket-env='p' data-storerocket-id='qBZJWD780o'><p style='text-align:center;font-size:13px;padding:10px;'>Store locator is loading from StoreRocket <a target='_blank' href='https://storerocket.io' style='font-size:13px;'>Store Locator Widget</a>..</p></div><script>(function(){var a=document.createElement('script');a.type='text/javascript';a.async=!0;a.src='https://cdn.storerocket.io/js/widget.js';var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b);}());</script>\t\n</div>\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
