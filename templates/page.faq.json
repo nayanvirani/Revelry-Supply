@@ -281,6 +281,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_jXTx6b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_XriyEc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I exchange my bag?",
+            "icon": "none",
+            "row_content": "<p>Yes if you purchased the bag through our estore and it hasn’t been used yet. Please contact info@revelrysupply.com to get an exchange started.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QxawYM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your warranty policy?",
+            "icon": "none",
+            "row_content": "<p>We stand behind our products. Anything we deem a manufacturing defect we will replace free of charge. Send any warranty questions to: customerservice@revelrysupply.com</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UdVbed": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Onward Shipping Protection",
+            "icon": "none",
+            "row_content": "<p>If your purchased Onward Shipping Protection for your order, click <a href=\"https://revelrysupply.com/pages/onward-shipping-protection-FAQs\" title=\"https://revelrysupply.com/pages/onward-shipping-protection-FAQs\"><strong>here</strong></a><strong> </strong>for FAQs, or click <a href=\"https://app.useonward.com/inquiries/new?s=revelrysupply.com\" title=\"https://app.useonward.com/inquiries/new?s=revelrysupply.com\"><strong>here</strong></a><strong> </strong>to file a claim.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_XriyEc",
+        "collapsible_row_QxawYM",
+        "collapsible_row_UdVbed"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Warranty",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -288,6 +340,7 @@
     "image_banner_zyaKVr",
     "collapsible_content_QYHHCH",
     "collapsible_content_TXURUR",
-    "collapsible_content_GcaikF"
+    "collapsible_content_GcaikF",
+    "collapsible_content_jXTx6b"
   ]
 }
