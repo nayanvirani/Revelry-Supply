@@ -67,10 +67,20 @@
             "row_content": "<p>Each bag has a nylon or cotton canvas exterior that has a heavy duty rubber backing. The rubber backing, that is invisible from the outside, works as our first line of defense by creating odor containment and resistance to water. Our carbon filter system has 3 separate layers. The two outer white layers are synthetic filters, and the middle layer is activated charcoal. Combined these layers create a filtration system that soaks up all unwanted odors.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_w3yeU3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes the luggage water resistant?",
+            "icon": "none",
+            "row_content": "<p>Each bag has a nylon or cotton canvas exterior that has a heavy duty rubber backing. The rubber backing, that is invisible from the outside, works as our first line of defense by creating odor containment and resistance to water.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_xVHJHC"
+        "collapsible_row_xVHJHC",
+        "collapsible_row_w3yeU3"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
