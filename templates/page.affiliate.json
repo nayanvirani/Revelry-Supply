@@ -107,6 +107,9 @@
     },
     "custom_liquid_RbQaJK": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".avant-link {display: flex; flex-direction: column; align-items: center; gap: 20px; justify-content: center;}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"avant-link\">\n  <a href=\"https://www.avantlink.com/signup/affiliate/us?merchant=18577\" style=\"display:block; width: 180px; margin: 0 auto;\"><img style=\"width: 180px; display:block;\" src=\"https://cdn.shopify.com/s/files/1/0250/2384/0290/files/avantlink-logo-flat.png?v=1584151215\" alt=\"Affiliates Link\"></a>\n  <a href=\"https://www.avantlink.com/signup/affiliate/us?merchant=18577\" style=\"\" target=\"_blank\" class=\"button button--primary\">GET STARTED</a>\n</div>",
