@@ -168,11 +168,51 @@
             "row_content": "<p>All Revelry Scout Series Hard Cases are waterproof IP67 Military standard. IP67 means the unit can be dropped into a body of water up to a meter deep for half an hour.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_ByEFFE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What temperatures can the hard cases withstand?",
+            "icon": "none",
+            "row_content": "<p>-47C to 90C</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zXwcka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What material are the hard cases made out of?",
+            "icon": "none",
+            "row_content": "<p>TSU-1 resin with fiberglass reinforcement.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LkXHni": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you sell replacement foam?",
+            "icon": "none",
+            "row_content": "<p>Yes, you can order it on our estore. We sell full sets.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_t9TN3A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the hard cases lockable?",
+            "icon": "none",
+            "row_content": "<p>Yes, our hard cases have multiple locking locations. We suggest purchasing our brass luggage lock that come with two unique keys if you plan to lock your hard case.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_Y83UJA",
-        "collapsible_row_BVdnTG"
+        "collapsible_row_BVdnTG",
+        "collapsible_row_ByEFFE",
+        "collapsible_row_zXwcka",
+        "collapsible_row_LkXHni",
+        "collapsible_row_t9TN3A"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
