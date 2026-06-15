@@ -475,8 +475,7 @@ h3.upsell_card__heading {
         padding: 2rem;
     }
     body .image-with-text__content {
-        padding-left:2rem;
-        padding-right:2rem;
+        padding:2rem;
     }
     body .collapse-padding .image-with-text__grid .image-with-text__content {
         padding:2rem;
