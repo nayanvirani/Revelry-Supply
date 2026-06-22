@@ -10,7 +10,21 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+.section-{{ section.id }}-padding .nv-bottom-images-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+    gap: 0;
+}
 
+.section-{{ section.id }}-padding .nv-bottom-images-wrapper .image-wrpper {
+    line-height: 0;
+}
+
+.section-{{ section.id }}-padding .nv-bottom-images-wrapper .image-wrpper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 {%- endstyle -%}
  {% if product.metafields.custom.bottom_images != blank %}
   <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
