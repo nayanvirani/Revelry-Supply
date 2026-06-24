@@ -913,10 +913,12 @@ fieldset.js.product-form__input.product-form__input--pill.custom-image-swatches 
     gap:10px;
 }
 
-label.custom-image-swatch-label {
+fieldset.js.product-form__input.product-form__input--pill.custom-image-swatches label.custom-image-swatch-label {
     padding: 5px !important;
     margin:0 !important;
+     max-width: 100px;
 }
+
 
 .product-form__input--pill input[type=radio]:checked+label.custom-image-swatch-label {
     background: transparent;
